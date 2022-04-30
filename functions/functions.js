@@ -12,14 +12,14 @@ function sum(a, b) {
   return a + b;
 }
 
-function handleSpecialButtonClick(e) {
-  alert("hooray");
-}
-
 // in js you need a way to idetentify the button in question
 // set up a listener to the button that will listen for a click
 // create an event handling function to do something when the button is clicked
 // alert("hooray")
+
+function handleSpecialButtonClick(e) {
+  alert("hooray");
+}
 
 let specialButton = document.querySelector("#special-button");
 specialButton.addEventListener("click", handleSpecialButtonClick);
